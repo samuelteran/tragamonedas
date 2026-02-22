@@ -1,6 +1,6 @@
 // --- CONFIGURACIÓN DE SONIDOS ---
-const sonidoGiro = new Audio('giro.mp3');
-const sonidoPremio = new Audio('ganar.mp3');
+const sonidoGiro = new Audio('giro.MP3');
+const sonidoPremio = new Audio('ganar.MP3');
 sonidoGiro.loop = true; // El sonido de giro se repite hasta que frenen los rodillos
 
 // --- VARIABLES DE JUEGO ---
@@ -143,4 +143,5 @@ function evaluarPremios(res) {
         saldoTxt.innerText = saldo;
         mensaje.style.color = "#f1c40f";
     }
+
 }
