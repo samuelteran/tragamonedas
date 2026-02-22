@@ -29,6 +29,7 @@ body {
     border-radius: 50px;
     font-size: 1.5rem;
     font-weight: bold;
+    margin-top: 40px; /* <--- AÑADE ESTO: Ajusta el número si necesitas que baje más */
     margin-bottom: 20px;
     border: 3px solid #2ecc71;
     display: inline-block;
@@ -187,4 +188,5 @@ hr {
     width: 100%;
     max-width: 400px;
     font-weight: normal; /* Esto asegura que el texto se vea derecho */
+
 }
